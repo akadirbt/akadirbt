@@ -1,28 +1,56 @@
-# Hey, I'm Kadir 
+<h3 align="left">Hey, I'm Kadir</h3>
 
- Aspiring FPGA Engineer — fresh graduate with a deep passion for low-level hardware design.
-
----
-
-###  My Journey
-
- Started in **2016 with PIC16F877A** — my first steps into embedded systems and embedded C.  
-From there, I dove deep into **ARM Cortex-M4 architecture**, spending a significant amount of time working with **STM32 at the register level**. My STM32F439ZIT development board became my best teacher.
-
- Along the way, I picked up **Python** and moved on to **Raspberry Pi** projects, where I also fell in love with **Linux**.
-
- Throughout all of this, I always had one goal: **FPGA**.  
-When I discovered **Zynq UltraScale+ MPSoC**, I realized it was the perfect world where all my experience — embedded C, Linux, Python, and hardware — could come together. So I jumped in.
+<p align="left"><strong>RTL / FPGA engineer</strong> — hardware from the ground up</p>
 
 ---
 
-###  What I'm Working On
+### About
 
- Currently working on the **KV260**, where I trained and deployed a **YOLOv5s animal detection AI**, achieving up to **70 FPS at 416×416 resolution**. Actively developing this project further.
+I build close to the metal.
 
- Recently designed my first **16-bit RISC CPU from scratch in SystemVerilog** — because understanding hardware at its deepest level is what excites me most.
+My path started with embedded systems, moved through STM32 register-level development, Linux, Python, and computer vision, and naturally pulled me toward FPGA and digital design. What excites me most is understanding how systems work from the lowest layers upward — from RTL and custom datapaths to firmware, drivers, and full hardware/software integration.
+
+Right now I'm focused on projects that sit at that boundary:
+
+- FPGA / RTL design in **SystemVerilog**
+- embedded control on **STM32**
+- Linux-based acceleration and deployment on **KV260 / Zynq**
+- real-time vision pipelines and hardware-aware optimization
 
 ---
 
+### Stack
 
-> *The more I learn, the more I realize how much I don't know — and that's exactly what keeps me going.* 
+![SystemVerilog](https://img.shields.io/badge/SystemVerilog-1D9E75?style=flat-square&logoColor=white)
+![Vivado/Vitis](https://img.shields.io/badge/Vivado%2FVitis-378ADD?style=flat-square&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-7F77DD?style=flat-square&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32%20bare--metal-D85A30?style=flat-square&logoColor=white)
+![Embedded C](https://img.shields.io/badge/Embedded%20C-888780?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-639922?style=flat-square&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux%20%2F%20PetaLinux-BA7517?style=flat-square&logoColor=white)
+![Hailo](https://img.shields.io/badge/Hailo%20%2F%20DPU-D4537E?style=flat-square&logoColor=white)
+
+---
+
+### Active Builds
+
+| Project | Description | Highlight |
+|---------|-------------|-----------|
+| **KV260 gimbal tracker** | YOLOv5s ball detection feeding a UDP-linked STM32F439 controller for physical pan/tilt tracking. | **70 FPS · DPU · IBVS** |
+| **16-bit RISC CPU** | Custom ISA and full datapath implemented from scratch in SystemVerilog. | **RTL · custom ISA** |
+| **Hailo-8L wildlife detector** | 9-class YOLOv5s pipeline on Raspberry Pi 5 with PIR-gated FSM and class-specific audio deterrents. | **45 FPS · HEF · C++** |
+
+---
+
+### What I Like Building
+
+- custom digital hardware and datapaths
+- FPGA-based systems with real software integration
+- embedded control loops and low-level firmware
+- hardware/software co-design where performance actually matters
+
+---
+
+> The goal is simple: build things I truly understand, all the way down.
+
+🟢 **Open to RTL / FPGA / Embedded roles**
