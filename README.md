@@ -1,56 +1,86 @@
-<h3 align="left">Hey, I'm Kadir</h3>
+<div align="center">
 
-<p align="left"><strong>RTL / FPGA engineer</strong> — hardware from the ground up</p>
+<img src="https://avatars.githubusercontent.com/u/104697827?v=4" width="120" alt="Kadir profile photo" style="border-radius: 50%;" />
 
----
+# Hey, I'm Kadir
 
-### About
+### RTL / FPGA Engineer • Embedded Systems • Hardware From The Ground Up
 
-I build close to the metal.
+<p>
+  I build low-level systems where <strong>digital design</strong>, <strong>firmware</strong>,
+  <strong>Linux</strong>, and <strong>real hardware</strong> meet.
+</p>
 
-My path started with embedded systems, moved through STM32 register-level development, Linux, Python, and computer vision, and naturally pulled me toward FPGA and digital design. What excites me most is understanding how systems work from the lowest layers upward — from RTL and custom datapaths to firmware, drivers, and full hardware/software integration.
+<p>
+  <img src="https://img.shields.io/badge/Open%20to-RTL%20%2F%20FPGA%20%2F%20Embedded%20Roles-1f6feb?style=for-the-badge" alt="Open to roles" />
+</p>
 
-Right now I'm focused on projects that sit at that boundary:
-
-- FPGA / RTL design in **SystemVerilog**
-- embedded control on **STM32**
-- Linux-based acceleration and deployment on **KV260 / Zynq**
-- real-time vision pipelines and hardware-aware optimization
-
----
-
-### Stack
-
-![SystemVerilog](https://img.shields.io/badge/SystemVerilog-1D9E75?style=flat-square&logoColor=white)
-![Vivado/Vitis](https://img.shields.io/badge/Vivado%2FVitis-378ADD?style=flat-square&logoColor=white)
-![FreeRTOS](https://img.shields.io/badge/FreeRTOS-7F77DD?style=flat-square&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32%20bare--metal-D85A30?style=flat-square&logoColor=white)
-![Embedded C](https://img.shields.io/badge/Embedded%20C-888780?style=flat-square&logoColor=white)
-![Python](https://img.shields.io/badge/Python-639922?style=flat-square&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux%20%2F%20PetaLinux-BA7517?style=flat-square&logoColor=white)
-![Hailo](https://img.shields.io/badge/Hailo%20%2F%20DPU-D4537E?style=flat-square&logoColor=white)
+</div>
 
 ---
 
-### Active Builds
+## About Me
 
-| Project | Description | Highlight |
-|---------|-------------|-----------|
+My background grew from embedded systems into full hardware/software co-design.
+
+I started with microcontrollers, spent serious time working close to the register level on STM32, built up confidence in Linux and Python through deployment work, and kept moving toward the layer that interested me most: the hardware itself.
+
+That path led me to FPGA, RTL, custom datapaths, and real-time accelerated systems.
+
+What I enjoy most is building things I can understand all the way down:
+
+- custom RTL and digital logic
+- embedded firmware and control loops
+- FPGA-based systems with real software integration
+- performance-aware hardware/software interfaces
+
+---
+
+## Stack
+
+<p>
+  <img src="https://img.shields.io/badge/SystemVerilog-1D9E75?style=flat-square&logoColor=white" alt="SystemVerilog" />
+  <img src="https://img.shields.io/badge/Vivado%2FVitis-378ADD?style=flat-square&logoColor=white" alt="Vivado/Vitis" />
+  <img src="https://img.shields.io/badge/FreeRTOS-7F77DD?style=flat-square&logoColor=white" alt="FreeRTOS" />
+  <img src="https://img.shields.io/badge/STM32%20bare--metal-D85A30?style=flat-square&logoColor=white" alt="STM32 bare metal" />
+  <img src="https://img.shields.io/badge/Embedded%20C-888780?style=flat-square&logoColor=white" alt="Embedded C" />
+  <img src="https://img.shields.io/badge/Python-639922?style=flat-square&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Linux%20%2F%20PetaLinux-BA7517?style=flat-square&logoColor=white" alt="Linux / PetaLinux" />
+  <img src="https://img.shields.io/badge/Hailo%20%2F%20DPU-D4537E?style=flat-square&logoColor=white" alt="Hailo / DPU" />
+</p>
+
+---
+
+## Featured Builds
+
+| Project | What it is | Highlight |
+|---------|------------|-----------|
 | **KV260 gimbal tracker** | YOLOv5s ball detection feeding a UDP-linked STM32F439 controller for physical pan/tilt tracking. | **70 FPS · DPU · IBVS** |
 | **16-bit RISC CPU** | Custom ISA and full datapath implemented from scratch in SystemVerilog. | **RTL · custom ISA** |
 | **Hailo-8L wildlife detector** | 9-class YOLOv5s pipeline on Raspberry Pi 5 with PIR-gated FSM and class-specific audio deterrents. | **45 FPS · HEF · C++** |
 
 ---
 
-### What I Like Building
+## What I’m Focused On
 
-- custom digital hardware and datapaths
-- FPGA-based systems with real software integration
-- embedded control loops and low-level firmware
-- hardware/software co-design where performance actually matters
+- writing clean, understandable RTL
+- building hardware with strong system-level intuition
+- embedded control and low-level debugging
+- FPGA workflows that connect design, verification, and deployment
+- projects that prove real engineering depth, not just demos
 
 ---
 
-> The goal is simple: build things I truly understand, all the way down.
+## Engineering Style
 
-🟢 **Open to RTL / FPGA / Embedded roles**
+I like hard problems with clear signals:
+
+- datapaths
+- timing-sensitive logic
+- interfaces between hardware and software
+- bring-up on real boards
+- systems that only count if they work outside the simulator
+
+---
+
+> Build it. Understand it. Own the full stack.
