@@ -83,4 +83,4 @@ I like hard problems with clear signals:
 
 ---
 
-> Build it. Understand it. Own the full stack.
+> *The more I learn, the more I realize how much I don't know — and that's exactly what keeps me going.*
