@@ -1,6 +1,5 @@
 <div align="center">
 
-<img src="https://avatars.githubusercontent.com/u/104697827?v=4" width="120" alt="Kadir profile photo" style="border-radius: 50%;" />
 
 # Hey, I'm Kadir
 
