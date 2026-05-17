@@ -21,18 +21,12 @@
 
 ## About Me
 
-My background grew from embedded systems into full hardware/software co-design.
+PIC → STM32 register-level → Linux/RPi → Kria KV260.  
+Each step was deliberate: I wanted to understand the hardware,  
+not just use it. Now I work at the layer where RTL, firmware,  
+and real-time AI intersect.
 
-I started with microcontrollers, spent serious time working close to the register level on STM32, built up confidence in Linux and Python through deployment work, and kept moving toward the layer that interested me most: the hardware itself.
-
-That path led me to FPGA, RTL, custom datapaths, and real-time accelerated systems.
-
-What I enjoy most is building things I can understand all the way down:
-
-- custom RTL and digital logic
-- embedded firmware and control loops
-- FPGA-based systems with real software integration
-- performance-aware hardware/software interfaces
+US Citizen · New Jersey
 
 ---
 
@@ -58,29 +52,3 @@ What I enjoy most is building things I can understand all the way down:
 | **KV260 gimbal tracker** | YOLOv5s ball detection feeding a UDP-linked STM32F439 controller for physical pan/tilt tracking. | **70 FPS · DPU · IBVS** |
 | **16-bit RISC CPU** | Custom ISA and full datapath implemented from scratch in SystemVerilog. | **RTL · custom ISA** |
 | **Hailo-8L wildlife detector** | 9-class YOLOv5s pipeline on Raspberry Pi 5 with PIR-gated FSM and class-specific audio deterrents. | **45 FPS · HEF · C++** |
-
----
-
-## What I’m Focused On
-
-- writing clean, understandable RTL
-- building hardware with strong system-level intuition
-- embedded control and low-level debugging
-- FPGA workflows that connect design, verification, and deployment
-- projects that prove real engineering depth, not just demos
-
----
-
-## Engineering Style
-
-I like hard problems with clear signals:
-
-- datapaths
-- timing-sensitive logic
-- interfaces between hardware and software
-- bring-up on real boards
-- systems that only count if they work outside the simulator
-
----
-
-> *The more I learn, the more I realize how much I don't know — and that's exactly what keeps me going.*
