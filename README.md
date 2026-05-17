@@ -26,8 +26,6 @@ Each step was deliberate: I wanted to understand the hardware,
 not just use it. Now I work at the layer where RTL, firmware,  
 and real-time AI intersect.
 
-US Citizen · New Jersey
-
 ---
 
 ## Stack
